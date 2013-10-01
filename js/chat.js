@@ -199,7 +199,7 @@ this.login.connect = function(params){
 				core: { //debug: true ,
 						autojoin: candy_rooms_json
 				},
-				view: { resources: './candy/res/',
+				view: { resources: './themes/',
 						language: candy_lang
 				},
 				/*crop: { 
@@ -215,7 +215,7 @@ this.login.connect = function(params){
 				core: { //debug: true ,
 						autojoin: candy_rooms_json
 				},
-				view: { resources: './candy/res/',
+				view: { resources: './themes/',
 						language: candy_lang
 				},
 				/*crop: { 
@@ -291,7 +291,7 @@ this.login.connect = function(params){
 			core: { debug: true ,
 					autojoin: candy_rooms_json
 			},
-			view: { resources: './candy/res/',
+			view: { resources: './themes/',
 					language: candy_lang
 			},
 			/*crop: { 
