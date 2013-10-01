@@ -278,7 +278,6 @@ this.login.connect = function(params){
 		}
 		
 		var candy_style = $('#xmpp_webclient_candy_style').find(':selected').attr('value');
-		console.log(candy_style);
 		if(candy_style != $('link[href="./themes/default.css"]').attr('href')){
 			var append_css = document.createElement('link');
 			append_css.rel = 'stylesheet';
