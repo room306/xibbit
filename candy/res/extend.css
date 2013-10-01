@@ -1,0 +1,12 @@
+
+#chat-sound-control {
+	/* such an annoyance, and flash even */
+	display: none !important;
+}
+#emoticons-icon{
+	/* ;) */
+	display: none !important;
+}
+form.message-form input{
+	color: black;
+}

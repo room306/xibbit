@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex, nofollow">
+	<title>Create a XMPP chatroom</title>
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+	<script src="../js/create.js"></script>
+</head>
+<body>
+	<div class="xmpp webclient">
+		<p class="xmpp webclient">
+			To create a XMPP chatroom, the first thing you need is a XMPP account
+			yourself so you can register and administrate a room. 
+			Most often, you can just visit the XMPP server's website and create
+			an account.
+		</p>
+		<p class="xmpp webclient">
+			For room administration, you should use an installed XMPP program (XMPP
+			client, where "client" means a program you use to communicate to a server).
+			A multimessenger (IM program where you can add several accounts like
+			ICQ, XMPP/Jabber, GTalk, etc.) should be most useful here. 
+		</p>
+		<p class="xmpp webclient">
+			After you've added your account in your messenger (<a class="xmpp webclient" href="https://is-a-furry.org/page/is-a-furry-chat-without-the-homepage/"
+			target="_blank">here's a tutorial, works for other servers as well as for
+			is-a-furry.org</a>), all you'll have to do
+			is join a room. If no one yet registered it, you're moderator and can
+			register it.
+		</p>
+		<p class="xmpp webclient">
+			As Pidgin (or it's Mac equivalent, Adium) is cross-platform and 
+			popular, the following tutorial shows you how to create a XMPP
+			multi user chatroom via Pidgin: <a class="xmpp webclient" href="https://itservices.stanford.edu/service/instantmessaging/pidgin/chat"
+			target="_blank">itservices.stanford.edu</a>.
+		</p>
+		<p class="xmpp webclient">
+			Note you do not have to invite users via XMPP to let them join your room.
+			Inviting like the tutorial describes is an option, but you can just tell
+			people somewhere else of the room and <a class="xmpp webclient" href="./link.html" target="_blank">just create
+			a link to let people join on click</a>.
+		</p>
+		<p class="xmpp webclient">
+			To adjust a rooms settings, you need to configure the room. In Pidgin, this works via
+			typing "/config" in the message window after joining the room.
+		</p>
+		<p class="xmpp webclient">
+			If you want the room to remain (and you to remain admin there), make the room persistent.
+			This is the only setting you "have" to do to register a room. Setting a room title sometimes
+			creates trouble with some clients, so let it be if you don't have to. Description can stay
+			empty as well, only set if you need it.
+		</p>
+		<p class="xmpp webclient">
+			A smaller room for more private  discussions should not be publically listed. When a room
+			is publically listed, users on the server can read the room list and join a room of their
+			likes, yours as well. If you want exactly that, make the room publically searchable. If not,
+			uncheck this setting. The participant list being public should be unchecked as well in most
+			cases.
+		</p>
+		<p class="xmpp webclient">
+			Room passwords sometimes make sense, but usually are not necessary. Use this option to keep
+			annoying users out if you have a little troll problem. (If you are already using an encryption
+			password and everyone is using this client, a room password should not be necessary - you won't
+			see anything people on other clients and/ or not knowing the password write. You room password,
+			if you set one and still use encryption, should never be the same as your encryption password,
+			as the encryption password is known to the server.)
+		</p>
+		<p class="xmpp webclient">
+			With these settings, your room is configured for use, with you as an admin.
+		</p>
+		<p class="xmpp webclient">
+			A (possible) problem that remains is <strong class="xmpp webclient">discussion history</strong>.
+			XMPP rooms save discussion history. If users join, the discussion history remains even after
+			everyone left the room. Whether discussion history is active, and how much is saved, usually depends
+			on the server. "Last week's messages" isn't rare.
+			<br>
+			The webclient on this page is configured not to show discussion history. Still, many clients
+			do. If you use an encryption password, people joining with other clients will only see
+			encrypted clutter - until they decrypt it somehow else (knowing the password) 
+			and read who said something unfriendly about them 
+			etc. ;).
+		</p>
+		<p class="xmpp webclient">
+			Some servers allow you to set the maximum number of messages to be shown to joining users.
+			If this is available, you usually want to set the number of messages to zero.
+		</p>
+		<p class="xmpp webclient">
+			If setting the discussion history maximum shown to users is not possible, clear the room pretty
+			often as an admin. In Pidgin, this is just a matter of typing "/clear" when logged in as
+			admin.
+		</p>
+		<p class="xmpp webclient">
+			Please tell users that registered users can join unregistered rooms 
+			(you'll notice a room is unregistered
+			when the first who joins is moderator). Unregistered rooms usually don't 
+			keep history, i.e. history is deleted after everyone left. 
+			Via typing "/join roomname", users can join a room from
+			the webclient (i.e. when chatting from this page). So if they'd like to discuss without their
+			discussion appearing in room history, they can join a room together (or just do private chat if
+			it's only two users). You could mention that in the message subject. Make sure if there
+			are such settings that all users are allowed to do private chat.
+		</p>
+		<p class="xmpp webclient">
+			Note that if users are chatting via this website using an encryption password, all you'll
+			see using another client is the usernames and encrypted nonsense instead of message text. Just
+			don't care about that - room configuration and clearing the room still work. To see what users 
+			write, and kick or ban trolls, the webinterface can easily be used. As usernames are not encrypted,
+			you could as well use another client for all administrative tasks while joining in the chat on
+			this page as a normal user.
+			<br>
+			When you ban users, be aware there usually is no "unban" in XMPP. Instead, invite the user to
+			the room (as shown in the tutorial). This "unbans" them automatically.
+		</p>
+	</div>
+</body>
